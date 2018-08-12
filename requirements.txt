@@ -1,0 +1,7 @@
+Django==2.1
+django-filter==2.0.0
+djangorestframework==3.8.2
+kazoo==2.5.0
+Markdown==2.6.11
+pytz==2018.5
+six==1.11.0
