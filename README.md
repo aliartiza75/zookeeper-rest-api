@@ -20,4 +20,6 @@ Follow the steps given below to install the project specific packages
 $ cd ~/zookeeper-rest-api
 $ pip3 install -r requirements.txt # install all packages defined in requirenments.txt file
 $ pip3 freeze # to validate packeges have been installed 
-```
+``
+
+`
