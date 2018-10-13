@@ -5,7 +5,6 @@ This repository contains endpoint to perform operation on the Apache Zookeeper.
 Its under development!
 
 ## Setup 
-I have created an virtual enviroment for this project using link: https://gist.github.com/aliartiza75/16f0bd59991a9ab469f617c2a71191dd
 
 Install the packages defined below for this project:
 
@@ -30,8 +29,6 @@ To use virtual enviornment for this project follow the steps given below, this i
   ```sh
   $ deactivate
   ```
-
-
 
 ```sh
 $ cd ~/zookeeper-rest-api
