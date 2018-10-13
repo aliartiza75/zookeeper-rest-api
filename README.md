@@ -16,6 +16,23 @@ Install the packages defined below for this project:
 
 Follow the steps given below to install the project specific packages
 
+To use virtual enviornment for this project follow the steps given below, this is an `optional` step:
+
+* To create virtual environment
+  ```sh
+  $ virtualenv zk-env
+  ```
+* To activate virtual environment
+  ```
+  $ source zk-env/bin/activate
+  ```
+* To deactivate the virtual environemnt
+  ```sh
+  $ deactivate
+  ```
+
+
+
 ```sh
 $ cd ~/zookeeper-rest-api
 $ pip3 install -r requirements.txt # install all packages defined in requirenments.txt file
