@@ -6,3 +6,4 @@ Werkzeug==0.14.1
 Flask-API==1.0
 python-dotenv==0.9.1
 kazoo==2.5.0
+jinja2
