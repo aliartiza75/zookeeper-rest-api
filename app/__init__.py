@@ -4,4 +4,4 @@ from flask_api import FlaskAPI
 app = Flask(__name__)
 
 # registering application
-app.register_blueprint(mod, uri_prefix='/kudu')
+app.register_blueprint(mod, uri_prefix='/zookeeper')
