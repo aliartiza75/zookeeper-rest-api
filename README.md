@@ -35,3 +35,16 @@ $ cd ~/zookeeper-rest-api
 $ pip3 install -r requirements.txt # install all packages defined in requirenments.txt file
 $ pip3 freeze # to validate packeges have been installed 
 ```
+
+## To start server
+
+To start the server use the command given below:
+
+```
+$ flask run --host=$FLASK_HOST_IP --port=$((FLASK_HOST_PORT))
+```
+
+* Starting Zookeeper REST API:
+  ```bash
+  $ sudo docker run -it -e FLASK_ENV=development -e FLASK_HOST_IP=<0.0.0.0> -e FLASK_HOST_PORT=<5000>  -e ZOOKEEPER_IP=<kudu-ip> -e ZOOKEEPER_PORT=<kudu-port> -p 5000:5000  -d zookeeper-rest-api
+  ```
