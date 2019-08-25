@@ -48,3 +48,14 @@ $ flask run --host=$FLASK_HOST_IP --port=$((FLASK_HOST_PORT))
   ```bash
   $ sudo docker run -it -e FLASK_ENV=development -e FLASK_HOST_IP=<0.0.0.0> -e FLASK_HOST_PORT=<5000>  -e ZOOKEEPER_IP=<zookeeper-ip> -e ZOOKEEPER_PORT=<zookeeper-port> -p 5000:5000  -d zookeeper-rest-api
   ```
+
+
+* Starting Zookeeper REST API using UWsgi
+
+uwsgi --wsgi-file app.py --callable app --http :5000
+
+
+
+Refrences
+
+* Riptutorials for configurations

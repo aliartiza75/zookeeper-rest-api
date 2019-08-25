@@ -5,5 +5,3 @@ app = Flask(__name__)
 
 # registering application
 app.register_blueprint(zk_blueprint)
-
-
