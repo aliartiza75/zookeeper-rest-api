@@ -54,8 +54,10 @@ $ flask run --host=$FLASK_HOST_IP --port=$((FLASK_HOST_PORT))
 
 uwsgi --wsgi-file app.py --callable app --http :5000
 
+In the app folder app.py is being used by wsgi and __init__.py file is being used by flask run command
 
 
 Refrences
 
 * Riptutorials for configurations
+
