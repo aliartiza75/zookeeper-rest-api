@@ -5,6 +5,8 @@ itsdangerous==0.24
 Jinja2==2.10.1
 kazoo==2.5.0
 MarkupSafe==1.0
+Werkzeug==0.15.3
+Flask-API==1.0
 python-dotenv==0.9.1
 six==1.12.0
 uWSGI==2.0.18
